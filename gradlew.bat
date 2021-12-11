@@ -1,7 +1,7 @@
 @if "%DEBUG%" == "" @echo off
 @rem ##########################################################################
 @rem
-@rem  Gradle startup script for Windows
+@rem  Gradle startup script for Windows dfsafds;alfsad'f;m
 @rem
 @rem ##########################################################################
 
@@ -18,6 +18,10 @@ set APP_HOME=%DIRNAME%
 
 @rem Find java.exe
 if defined JAVA_HOME goto findJavaFromJavaHome
+
+set JAVA_EXE=java.exe
+%JAVA_EXE% -version >NUL 2>&1
+if "%ERRORLEVEL%" == "0" goto init
 
 set JAVA_EXE=java.exe
 %JAVA_EXE% -version >NUL 2>&1
