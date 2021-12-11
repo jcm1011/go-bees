@@ -4,8 +4,6 @@
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * any later version.
  *
  * This program is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
@@ -14,6 +12,7 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <https://www.gnu.org/licenses/gpl-3.0.txt>.
+ * Cambio de version
  */
 
 package com.davidmiguel.gobees.logging;
@@ -21,6 +20,9 @@ package com.davidmiguel.gobees.logging;
 import android.util.Log;
 
 import com.crashlytics.android.Crashlytics;
+/*
+import de crashlytics
+*/
 
 import timber.log.Timber;
 
