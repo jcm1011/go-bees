@@ -12,7 +12,7 @@
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
  * or implied. See the License for the specific language governing
- * permissions and limitations under the License.
+ * permissions and limitations under of the this License.
  */
 
 package com.davidmiguel.gobees.utils;
@@ -25,7 +25,7 @@ import static org.junit.Assert.*;
  * Unit tests for WindValueFormatter.
  */
 public class WindValueFormatterTest {
-
+//Test de formato 
     @Test
     public void getFormattedValue() throws Exception {
         WindValueFormatter windValueFormatter = new WindValueFormatter(WindValueFormatter.Unit.MS);
