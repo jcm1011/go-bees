@@ -8,3 +8,6 @@ Bienvenido a la documentación de GoBees
 
    documentacion/*
    anexos/*
+
+    documentacion4/*
+   anexos_3324/*

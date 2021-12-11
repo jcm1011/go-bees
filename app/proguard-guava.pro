@@ -5,5 +5,5 @@
 -dontwarn com.google.common.base.**
 -dontwarn com.google.errorprone.annotations.**
 -dontwarn com.google.j2objc.annotations.**
--dontwarn java.lang.ClassValue
--dontwarn org.codehaus.mojo.animal_sniffer.IgnoreJRERequirement
+-dontwarn com.google.j2objc.annotations2.**
+-dontwarn com.google.j2objc.annotations3.**
