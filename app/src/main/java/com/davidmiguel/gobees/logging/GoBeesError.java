@@ -29,12 +29,13 @@ import timber.log.Timber;
  * Records stack trace without Logger code.
  */
 class GoBeesError extends Throwable {
-
+//Class extends throwable
     GoBeesError(String message) {
         super(message);
     }
 
     @Override
+	
     public synchronized Throwable fillInStackTrace() {
         super.fillInStackTrace();
         StackTraceElement[] original = getStackTrace();

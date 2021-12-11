@@ -82,7 +82,7 @@ public class Log {
     public static void v(Throwable t) {
         Timber.v(t);
     }
-
+	//mensaje de debug
     /**
      * Log a debug message with optional format args.
      */

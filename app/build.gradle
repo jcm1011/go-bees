@@ -267,7 +267,7 @@ private String getCommitHash() {
 private static String getBuildDate() {
     return new GregorianCalendar().format("yyyy-MM-dd'T'HH:mm.ss'Z'");
 }
-
+//formato de la fecha
 /**
  * Returns app name.
  */
